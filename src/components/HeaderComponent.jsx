@@ -14,7 +14,7 @@ class HeaderComponent extends Component {
             <div>
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark" style={{backgroundColor: "#03256C"}}>
-                    <div className="navbar-brand" style={{paddingLeft:"10px"}}>Grocery Bill Application</div>
+                        <div className="navbar-brand" style={{paddingLeft:"10px"}}>Grocery Bill Application</div>
                     </nav>
                 </header>
             </div>

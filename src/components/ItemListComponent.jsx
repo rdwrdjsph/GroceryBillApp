@@ -40,7 +40,7 @@ class ItemListComponent extends Component {
             <div>
                 <div>
                 <h2 className="text-center">Item List</h2>
-                <button className="btn btn-primary" onClick={this.addItem}>Add Item</button>
+                <button className="btn btn-info" onClick={this.addItem}>Add Item</button>
                 </div><br/>
                 <div className="row">
                     <table className="table table-hover table-bordered text-center table-light">
@@ -67,6 +67,7 @@ class ItemListComponent extends Component {
                                         <td>
                                             <button onClick={ () => this.updateItem(item.itemId)} className="btn btn-info">Update</button>
                                             <button style={{marginLeft: "15px"}} onClick={ () => this.deleteItem(item.itemId)} className="btn btn-danger">Delete</button>
+                                            <button style={{marginLeft: "15px"}} onClick={ () => this.deleteItem(item.itemId)} className="btn btn-success">Add to Cart</button>
                                         </td>
                                     </tr>
                                 )
